@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    vertical-align: middle;
+}
+body{
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+         ul.inline-block{
+            height: 60px;
+            background: white;
+            padding-top: 10px;
+            height: 40px;
+            text-align: center;
+            vertical-align: middle;
+            margin-bottom: 0px;
+            margin-left: 25%;
+            margin-right: 25%;
+            background: transparent;
+            display: flex;
+            list-style-type: none;
+         }
+         ul.inline-block a{
+            border-radius: 5px;
+            color:black;
+            font-family: 'Calibri';
+            font-size: 20px;
+            grid-template-columns: 6, 1fr; 
+            background-color: white;
+            padding: 0 1.5em 0 1.5em;
+            cursor: pointer;
+            }
+         .inline-block a:hover{
+            color: blue;
+         }
+         form{
+            display: inline-flex;
+            height: 30px;
+            padding-right: 4px;
+            padding-top: 10px;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-right: 5px;
+         }
+         .divimg{
+            margin-left: 3px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+         
+         }
+         .imgdiv :hover{
+            width: 150px;
+            height: 105px;
+         }
+         .antet-program{
+            display: block;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 33px;
+            letter-spacing: 0.25em;
+            color: #3E3F43;
+            text-align: center;
+            margin-top: 100px;
+         }
+         .grid-gap{
+            display: grid;
+            grid-template-columns: 105px auto 90px;
+            width: 700px;
+            text-align: center;
+            margin: 10px auto 10px;
+            margin-top: 50px;
+            margin-bottom: 135px;
+            font-size: 25px;
+
+         }
+         .grid-gap div{
+            border: 1px solid springgreen;
+            border-radius: 6px;
+         }
+        .grid-text{
+         text-decoration-color: blue;
+        }
+        .section_hom2{
+            text-align: left;
+            width: 550px;
+            height: 370px;
+            border-radius: 20px;
+            text-indent: 50px;
+            margin: 50px;
+      }
+         .box {
+            display: flex;
+      }
+      
+         .box :first-child {
+            align-self: center;
+      }
+
+
+      .section_dep1{
+         width: 1250px;
+         height: 200px;
+         border: solid rgb(2, 73, 131);
+         margin-top: 10px;
+         margin-left: 50px;
+         margin-right: 50px;
+      }
+      .section_dep1_img{
+         width: 1244px;
+         height: 100px;
+         display: flex;
+         background-color: rgb(121, 183, 219);
+      }
+      .section_dep1_img h2{
+        align-items: center;
+      }
+      .section_dep1_img :hover{
+         color: blue;
+        }
+   .section_dep1_img h2{
+                margin-top: 25px;
+                color: white;
+                margin-left: 20%;
+                font-size: 50px;
+                margin-right: 20%;
+                }
+              
+      
+      .divbutton{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-color: transparent;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+     }
+     .butimg{
+        border-radius: 50%;
+     }
+     .divbuttonhover :hover{
+        width: 60px;
+        height: 60px;
+     }
+     .img_dep{
+        width: 120px;
+        height: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10%;
+     }
+     .map{
+        margin-top: 0px;
+        display:inline;
+     }
+     .grid-gap-contacts{
+        display: grid;
+        grid-template-columns: 250px auto 100px;
+        width: 700px;
+        text-align: center;
+        margin: 10px auto 10px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        font-size: 25px;
+     }
+     .grid-gap-contacts div{
+        border: 1px solid rgb(0, 89, 148);
+        border-radius: 6px;
+     }
+     .grid-gap-contacts p{
+        margin: 30px;
+     }
+    .grid-text-contacts{
+     text-decoration-color: blue;
+  
+    }
+    .imgcontacts{
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     margin: 10px;
+  }
+    .antet-contacts{
+     display: block;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 40px;
+              line-height: 33px;
+              letter-spacing: 0.25em;
+              color: #3E3F43;
+              text-align: center;
+              margin-top: 30px;
+           }
+           
+           .footer
+           {
+              height: 80px;
+              background: rgb(51, 179, 12);
+              margin-top: 5px;
+              padding-top:20px;
+              width: 100%;
+              text-align: center;
+              vertical-align: middle;
+                 }
+            .harta{
+                display: block;
+            }  
+              
